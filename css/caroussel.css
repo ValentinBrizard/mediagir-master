@@ -1,0 +1,21 @@
+#caroussel {
+    display: flex;
+    align-items: center;
+    user-select: none;
+    position: relative;
+    padding-left: 40%;
+    
+}
+
+#caroussel #fleche-gauche,
+#caroussel #fleche-droite {
+    font-size: 40px;
+    margin: 20px;
+}
+
+#image {
+    height: 125px;
+    width: 250px;
+
+
+}

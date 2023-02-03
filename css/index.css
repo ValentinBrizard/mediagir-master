@@ -1,0 +1,196 @@
+@import url(https://fonts.googleapis.com/css2?family=Bree+Serif&family=Inter:wght@700&family=Lora:wght@700&family=Open+Sans&display=swap);
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.swiper{
+    width: 250px;
+}
+
+h1 {
+    color: #00896d;
+    position: absolute;
+    font-size: 75px;
+    font-weight:bold;
+    margin-top: 400px;
+    text-transform: uppercase;
+    margin-left: 100px;
+    font-family:"lora";
+    text-align: center;
+    padding-left: 200px;
+}
+
+p {
+    color:#e3ebd0;
+    font-size: 30px;
+   font-weight: bold;
+   text-align: center;
+    font-family: "lora";
+}
+
+section {
+    background-color: #00896d;
+}
+
+img {
+    width: 100%;
+}
+
+hr {
+    color: #e3ebd0
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #00896D;
+    color: #fff;
+    height: 60px;
+    margin-top: 0;
+    
+}
+
+img {
+    text-align: center;
+    margin: 0;
+    height: 1024px;
+    width: 100%;
+
+   
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 60px;
+}
+
+nav ul li a:hover {
+    color: #ccc;
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: #00896D;
+    color: #fff;
+    min-width: 130px;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul li ul li {
+    display: block;
+}
+
+nav ul li ul li a {
+    display: block;
+    /* padding: 5px 16px; */
+    padding: 0
+}
+
+nav ul li ul li a:hover {
+    background-color: #00896D;
+}
+
+
+
+
+    
+
+h2 {
+    padding-top: 30px;
+    color:white;
+    font-family: "lora";
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+
+.confiance {
+    background-color: #e3ebd0;
+    width: 100%;
+    
+}
+
+
+    .p2 {
+        font-size: 20px;
+            font-family: "lora";
+            font-weight: 500;
+            color: white;
+           text-align:left;
+        
+       }
+            
+.card{
+   
+    background-color: #00896d;
+    width: 600px;
+    margin: 0px auto;
+    border-end-end-radius: 2em;
+    border-top-left-radius: 2em;
+    position: absolute;
+    top: 2050px;
+    margin-left: 50px;
+    position: absolute;
+    display: block;
+   
+    
+
+}
+
+.bgestrade{
+    position: absolute;
+    flex: auto;
+    width: 50px;
+
+}
+
+#parentcaroussel{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+#childcaroussel{
+    
+    width: 10%;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 40px;
+}
+
+#childcaroussel img{
+    height: 100px;
+    width: 150px;
+}
+
+#fleche-gauche, #fleche-droite{
+    margin-left:12px ;
+    width:3%;
+    display: inline-block;
+}
+
+
