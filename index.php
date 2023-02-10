@@ -159,28 +159,42 @@
 
       <section id="avis">
         <h2>95 % d'accord en 3 séances</h2>
-        <img src="" alt="Les avis clients"></img>
+        <img src="./img/rating.png" alt="Les avis clients"></img>
 
 
       </section>
 
 
-      <!-- Swiper JS -->
-      <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+      <section class="recherche">
+        <h2>Où nous trouver ?</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam suscipit fugit a ut laboriosam qui optio vel exercitationem saepe enim sunt nemo
+          delectus aliquam cupiditate minus officia, labore vero maiores?</p>
 
-      <!-- Initialize Swiper -->
-      <script>
-        let swiper = new Swiper(".mySwiper", {
-          slidesPerView: "auto",
-          centeredSlides: true,
-          spaceBetween: 30,
-          pagination: {
-            el: ".swiper-pagination",
-            clickable: true,
-          },
-        });
-      </script>
 
+
+      </section>
+      <footer>
+ 
+          <ul>
+            <li><a href="./contact.php">Nous contacter</a></li>
+            <li><a href="#">Mentions Légales</a></li>
+            <li><a href="#">Plan du site</a></li>
+          </ul> </footer>
+        <!-- Swiper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+        <!-- Initialize Swiper -->
+        <script>
+          let swiper = new Swiper(".mySwiper", {
+            slidesPerView: "auto",
+            centeredSlides: true,
+            spaceBetween: 30,
+            pagination: {
+              el: ".swiper-pagination",
+              clickable: true,
+            },
+          });
+        </script>
 
 
 
