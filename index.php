@@ -149,7 +149,7 @@
 
   <section id="avis">
     <h2>95 % d'accord en 3 séances</h2>
-    <img src="./img/rating.png" alt="Les avis clients"></img>
+    <img src="" alt="Les avis clients"></img>
 
 
   </section>
