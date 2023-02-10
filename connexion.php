@@ -3,7 +3,7 @@
 
             $requete=$connexion->prepare(
              'SELECT *
-             FROM utilisateur
+             FROM utilisateurs
             WHERE login = ?'
     );
 
@@ -14,8 +14,8 @@ $utilisateur=$requete->fetch();
     if($utilisateur==false){
              echo 'Login inexistant';
             }else{
-             $motDePassBcrypt=$utilisateur['password'];
-             $motDePassEnClair=$_POST['password'];
+             $motDePasseBcrypt=$utilisateur['password'];
+             $motDePasseEnClair=$_POST['password'];
 
     if (password_verify($motDePasseEnClair, $motDePasseBcrypt)) {
             $_SESSION['id'] = $utilisateur['id'];
@@ -27,6 +27,7 @@ $utilisateur=$requete->fetch();
              echo 'Mauvais mot de passe';
         }
     }
+   
 } ?>
 
 <h1>Connexion</h1>

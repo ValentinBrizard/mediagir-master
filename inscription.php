@@ -1,6 +1,4 @@
-<?php include 'header.php'; ?> 
 
-<?php include 'navbar.php'; ?>
 
 <?php
 $erreur = '';
@@ -10,7 +8,7 @@ if (isset($_POST['login'])) {
 
     //préparation de  la requête
     $requete = $connexion->prepare(
-        'INSERT INTO utilisateur ( login , password ) VALUES (?, ?)'
+        'INSERT INTO utilisateurs ( login , password ) VALUES (?, ?)'
     );
 
     $motDePasseBcrypt = password_hash($_POST['password'], PASSWORD_BCRYPT);

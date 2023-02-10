@@ -1,5 +1,10 @@
 @import url(https://fonts.googleapis.com/css2?family=Bree+Serif&family=Inter:wght@700&family=Lora:wght@700&family=Open+Sans&display=swap);
 
+:root {
+    --primary: red;
+
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -11,6 +16,7 @@ body {
 }
 
 h1 {
+
     color: #00896d;
     position: absolute;
     font-size: 75px;
@@ -193,4 +199,8 @@ h2 {
     margin-left: 12px;
     width: 3%;
     display: inline-block;
+}
+
+.login {
+    color: red
 }

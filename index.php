@@ -16,15 +16,19 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="./css/modale.css">
+  <link rel="stylesheet" href="./css/contact.css">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mediagir</title>
+  <style>
+    
+  </style>
 </head>
 
 
 <body>
-
+<header>
   <nav>
     <ul>
       <li><a href="index.html">Le centre</a></li>
@@ -55,7 +59,12 @@
         </ul>
       </li>
     </ul>
+    <a href="/mediagir-master/connexion.php"> connexion </a>
+    <a href="/mediagir-master/inscription.php"> inscription</a>
+
   </nav>
+  <header>
+
   <!--  fin de la navbar -->
   <h1>Ensemble, évitons les conflits</h1>
 
@@ -153,14 +162,14 @@
 
 
   </section>
-
+  
 
   <!-- Swiper JS -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 
   <!-- Initialize Swiper -->
   <script>
-    var swiper = new Swiper(".mySwiper", {
+    let swiper = new Swiper(".mySwiper", {
       slidesPerView: "auto",
       centeredSlides: true,
       spaceBetween: 30,
